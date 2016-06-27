@@ -1,10 +1,13 @@
 var canvas, canvasContext;
 
 var CANVAS_WIDTH = 800;
-var CANVAS_HEIGHT = 600;
+var CANVAS_HEIGHT = 640;
 
 var firstCar = new carClass("First Car");
 var secondCar = new carClass("Second Car");
+
+var firstScore = 0;
+var secondScore = 0;
 
 window.onload = function() {
     canvas = document.createElement('canvas');
@@ -20,7 +23,8 @@ window.onload = function() {
 
 	colorRect(0,0, canvas.width,canvas.height, 'black');
 	colorText("LOADING IMAGES", canvas.width/2, canvas.height/2, 'white');
-
+    
+    showScore();
 	loadImages();
 }
 
@@ -33,11 +37,18 @@ function imageLoadingDoneSoStartGame() {
 	loadLevel(levelList[levelNow]);
 }
 
+function showScore(){
+    colorRect(0,0, canvas.width,canvas.height, 'black');
+    colorText("PLAYER 1 - score: "+firstScore, 20, canvas.height-20, "white");
+    colorText("PLAYER 2 - score: "+secondScore, canvas.width/2+20, canvas.height-20, "white");
+}
+
 function nextLevel() {
 	levelNow++;
 	if(levelNow >= levelList.length) {
 		levelNow = 0;
 	}
+    
 	loadLevel(levelList[levelNow]);
 }
 
@@ -47,6 +58,7 @@ function loadLevel(whichLevel) {
     var secondName = secondCar.name;
 	secondCar.reset(otherCarPic, secondName);
 	firstCar.reset(carPic, firstName);
+    showScore();
 }
 
 function updateAll() {

@@ -82,6 +82,14 @@ function carTrackHandling(whichCar) {
 
 		if(tileHere == TRACK_GOAL) {
 			console.log(whichCar.name + " WINS!");
+            if(whichCar.name == "First Car"){
+                firstScore++;
+            }
+            else{
+                secondScore++;
+            }
+            console.log(firstScore);
+            console.log(secondScore);
 			nextLevel();
 		} else if(tileHere != TRACK_ROAD) {
 			whichCar.x -= Math.cos(whichCar.ang) * whichCar.speed;
