@@ -1,3 +1,6 @@
+var AUDI = "Audi.png";
+var MINI_TRUCK = "Mini_truck.png";
+
 var carPic = document.createElement("img");
 var otherCarPic = document.createElement("img");
 var trackPics = [];
@@ -23,8 +26,8 @@ function loadImageForTrackCode(trackCode, fileName) {
 
 function loadImages() {
 	var imageList = [
-		{varName: carPic, theFile: "Audi.png"},
-		{varName: otherCarPic, theFile: "Mini_truck.png"},
+		{varName: carPic, theFile: AUDI},
+		{varName: otherCarPic, theFile: MINI_TRUCK},
 
 		{trackType: TRACK_ROAD, theFile: "cesta.png"},
 		{trackType: TRACK_WALL, theFile: "trava.png"},
