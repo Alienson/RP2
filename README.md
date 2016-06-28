@@ -3,6 +3,9 @@
 
 http://www.sccg.sk/~lucan/RP2.htm
 
+### Link na stiahnutie
+[turna-projekt.zip](https://github.com/Alienson/RP2/raw/master/project/turna-projekt.zip)
+
 ### Dokumentácia
 [Rocnikovy_projekt-Turna.pdf](https://github.com/Alienson/RP2/raw/master/project-docs/Rocnikovy_projekt-Turna.pdf)
 
