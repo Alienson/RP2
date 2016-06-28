@@ -3,7 +3,8 @@
 **adam.turna@gmail.com**
 
 Jedná sa o jednoduchú minihru vytvorenú pre predmet **Webové aplikácie (2)** a **Ročníkový projekt (2)**.
-Hra je určená pre 2 hráčov, kde každý z hráčov musí prejsť s autíčkom cez prekážky a urobiť to skôr než jeho súper.
+
+Hra je určená pre 2 hráčov, kde každý z hráčov musí prejsť s autíčkom cez prekážky a dostať sa do cieľa skôr než jeho súper.
 
 
 ### Link na stiahnutie projektu
