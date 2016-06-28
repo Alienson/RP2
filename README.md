@@ -1,9 +1,9 @@
-# RP2
-## Ročníkový projekt 2
+# Ročníkový projekt 2
+## Adam Turňa
+**adam.turna@gmail.com**
 
-http://www.sccg.sk/~lucan/RP2.htm
 
-### Link na stiahnutie
+### Link na stiahnutie projektu
 [turna-projekt.zip](https://github.com/Alienson/RP2/raw/master/project/turna-projekt.zip)
 
 ### Dokumentácia
